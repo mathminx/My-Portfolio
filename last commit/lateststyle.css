@@ -13,8 +13,9 @@
 }
 
 body {
+    color: var(--text-color);
     Background-color: var(--base-color);
-} 
+}
 
 header {
     padding: 35px;
@@ -23,12 +24,10 @@ header {
 }
 
 header nav {
-    list-style-type: none;
-    display: inline-flex;
     padding-top: 15px;
     margin-right: 10px;
     float: right;
-    font-size: 30px;
+    font-size: x-large;
 }
 
 header nav ul {
@@ -46,53 +45,60 @@ header nav ul li a {
 
 header h1 {
     display: inline-block;
-    color: var(--text-color);
-    font-size: 60px;
+    font-size: xxx-large;
     font-weight:400
 }
 
-#tagline {
+#divider {
     background-image: url('Images/lightbulb.jpg'); 
     background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: bottom 75% center;
-    height: 300px;
+    background-size: 25%;
+    background-position: bottom 100% right;
+    height: 200px;
     width: 100%;
+    border-top: 2px solid var(--border-color);
     border-bottom: 2px solid var(--border-color);
 }
 
-#tagline p {
+#divider img {
+    width: 10%;
+    position:relative;
+    left:35px;
+    border-radius: 20px;
+}
+
+#divider p {
     display:inline-flex;
-    margin-left: 17%;
-    margin-top: 9.4%;
+    margin-left: 51%;
+    margin-top: 7%;
     color:rgb(235, 4, 4);
-    font-size: 48px;
-    font-weight:100;
+    font-size: xxx-large;
+    font-weight:300;
 }
 
 main {
     display: flex;
     flex-wrap:wrap;
     justify-content:space-between;
+    margin-top: 20px;
     margin-bottom: 20px;
-    color: var(--text-color);
 }
 
 .title-card img {
     display: flex;
-    border-radius: 10px;
-    height:180px;
+    border-radius: 80px;
+    height:200px;
     margin:30px;
     align-self: center;
+    
 }
 
 .title-card {
     display: flex;
     width:25%;
-    min-height: 300px;
-    font-size: 30px;
-    font-weight: 100;
-    justify-content: right;
+    min-height:300px;
+    font-size: x-large;
+    justify-content: flex-end;
     padding-right: 25px;
 }
 
@@ -107,87 +113,39 @@ main {
     flex-wrap: wrap;
     padding-left: 25px;
     padding-right: 25px;
-    min-height: 300px;
+    min-height:300px;
     width: 75%;
     text-align: left;
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: large;
     border-left: solid #5a0404;
     margin-top:20px;
     margin-bottom:20px;
     align-content: center;
 }
 
-#row-1 img {
-    height: auto;
-    max-width: 100%;
-    margin-bottom: 25px;
+a {
+     text-decoration: none;
 }
 
-#row-2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#row-2 a {
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#row-2 a img {
-    max-width: 75%;
-    height: auto;
-    align-self: left;
-    margin-bottom: 25px;
-}
-
-#contact-me {
-    color: var(--highlight-color);
-}
-
-#contact-me nav {
+nav {
+    font-size: x-large;
     list-style-type: none;
     display: inline-flex;
+}
+
+#ContactMe nav {
     padding-top: 15px;
     margin-right: 10px;
-    float: right;
-    font-size: 30px;
-}
-
-#contact-me nav ul {
-    list-style-type: none;
-}
-
-#contact-me nav ul li {
-    display: inline-block;
-    margin-left: 35px;
-    padding-top: 15px;
     font-size: large;
-    color: var(--highlight-color);
-}
-
-#contact-me nav ul li a {
-    color: var(--highlight-color);
 }
 
 footer {
     display: flex;
-    height: 200px;
     justify-content: center;
-    align-items:end;
-    flex-wrap: wrap;
-    padding-left: 25px;
-    padding-right: 25px;
-    min-height: 200px;
-    width: 100%;
+    height: fit-content;
+    padding: 35px;
 }
 
-footer p {
-    display: inline;
-    color: var(--highlight-color);
-    font-size: x-large;
-    margin-bottom: 50px;
+footer nav {
+    padding: 15px;
 }
-
-
