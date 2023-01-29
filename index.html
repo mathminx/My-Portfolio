@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css"> 
-    <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- (taken from W3 schools website: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp) -->
-    <title>Sarah V</title>
+    <title>Sarah Vickery | Welcome to my web page!</title>
 </head>
 
 <body>
@@ -20,16 +17,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#AboutMe">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                <a href="#MyWork">My Work</a>
+                <a href="#my-work">My Work</a>
                 </li>
                 <li>
-                    <a href="#ContactMe">Contact Me</a>
-                </li>
-                 <li>
-                <a href="#MyResume">My Resume</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
             </ul>
         </nav>
@@ -39,19 +33,23 @@
                 <p>eat. sleep. create... </p>
             </div>
     
-
     </header>
 
     
     <!-- Main content area -->
     <main>
 
-        <section id="AboutMe" class="title-card">
-            <img src="assets/Images/IMG_20190126_1537043.jpg" alt="photo of Sarah"/>
+        <!--------------------- "About Me" ---------------------->
+
+        <!-- Section heading and photo -->
+        <section id="about-me" class="title-card">
+            <!-- <img src="assets/Images/IMG_20190126_1537043.jpg" alt="photo of Sarah"/> -->
             <h2>About Me</h2>
-            
+            <img src="assets/Images/IMG_20190126_1537043.jpg" alt="photo of Sarah"/>
         </section>
-        <section class="content-box">
+
+        <!-- Bio -->
+        <section class="text-box">
             <p>
                 This section is about me. Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit. Suspendisse porta felis risus,
@@ -73,40 +71,57 @@
             </p>
         </section>
 
-        <!-- Section showing work samples -->
-        <section id="MyWork" class="title-card">
+        <!---------------- Samples of my work ---------------->
+        <!-------- Images are hyperlinks to websites --------->
+
+        <!-- Section heading -->
+        <section id="my-work" class="title-card"> 
             <h2>My Work</h2>
         </section>
-        <section class="content-box">
-            <div id="row-1">
-                <p>Website Refactored</p>
-                <a href="https://mathminx.github.io/module-1-challenge/">
-                    <img src="assets/Images/Module 1 Challenge.png" alt="Webpage refactored by Sarah"/>
+
+        <!-- Container for applications -->
+        <section class="application-box">
+
+        <!--First application displayed on its own row (image larger than subsequent images) -->
+            <section class="first-application">
+                <h3>Module 1 Challenge - HTML, CSS, and Git: Code Refactor</h3>
+                <a href="https://mathminx.github.io/module-1-challenge/"><img src="assets/Images/Module 1 Challenge.png" alt="Webpage refactored by Sarah"/>
                 </a>
-            </div>
-            <div id="row-2">
-                <p>Website Refactored</p>
-                <a href="https://mathminx.github.io/prework-study-guide/">
-                    <img src="assets/Images/Prework Study Guide.png" alt="Webpage refactored by Sarah"/>
+            </section>
+
+        <!-- Other applications displayed two per row (images smaller than image of first application) -->
+
+            <!-- Container for applications on the left side of the application container -->
+            <section class="left-application-box">
+                <h3>Prework Study Guide</h3>
+                <a href="https://mathminx.github.io/prework-study-guide/"><img src="assets/Images/Prework Study Guide.png" alt="Webpage refactored by Sarah"/>
                 </a>
-                <p>Coming Soon</p>
-                <a href="#">
-                    <img src="assets/Images/Under Construction.jpg" alt="Sign saying work under contracution"/>
+            </section>
+
+             <!-- Container for applications on the right side of the application container -->
+            <section class="right-application-box">
+                <h3>Coming Soon</h3>
+                <a href="#"><img src="assets/Images/Under Construction.jpg" alt="Webpage refactored by Sarah"/>
                 </a>
-            </div>
+            </section>
         </section>
 
-        <section id="ContactMe" class="title-card">
+        <!--------------- Contact information --------------->
+
+        <!-- Section heading -->
+        <section class="title-card">
             <h2>Contact Me</h2>
         </section>
-        <section class="content-box">
+
+        <!-- My contact information with hyperlinks -->
+        <section class="text-box" id="contact-me">
             <nav>
                 <ul>
                     <li>Email: <a href="mailto:mathminx@gmail.com">mathminx@gmail.com</a></li>
                     <br>
                     <li>GitHub: <a href="https://github.com/mathminx">github.com/mathminx</a></li>
                     <br>
-                    <li>LinkedIn: <a href="linkedin.com/in/sarah-vickery-10151012">linkedin.com/in/sarah-vickery</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/sarah-vickery-10151012/">linkedin.com/in/sarah-vickery</a></li>
                     <br>
                     <li>Twitter: <a href="https://twitter.com/Math__Minx?ref_src=twsrc%5Etfw">@Math__Minx</a></li>
                 </ul>
@@ -116,7 +131,7 @@
     
     <!-- Footer -->
     <footer>
-        <p>stay tuned...</p>;
+        <p>&#169 2023 mathminx inc.</p>
    </footer>
 
 </body>

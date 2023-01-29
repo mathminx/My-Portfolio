@@ -9,17 +9,37 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;    
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
 }
 
 body {
     Background-color: var(--base-color);
 } 
 
+h1 {
+    font-size: 60px;
+    font-weight:500;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight:500;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 3.5;
+}
+
+p {
+    font-size: 18px;
+    font-weight:400;
+    line-height: 1.5;
+}
+
 header {
     padding: 35px;
-    border: 2px solid 
-    border-bottom-color: var(--border-color);
 }
 
 header nav {
@@ -28,7 +48,7 @@ header nav {
     padding-top: 15px;
     margin-right: 10px;
     float: right;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 header nav ul {
@@ -47,27 +67,27 @@ header nav ul li a {
 header h1 {
     display: inline-block;
     color: var(--text-color);
-    font-size: 60px;
-    font-weight:400
+    /* font-size: 60px;
+    font-weight:400 */
 }
 
 #tagline {
+    display:inline-flex;
     background-image: url('Images/lightbulb.jpg'); 
     background-repeat: no-repeat;
     background-size: 30%;
-    background-position: bottom 75% center;
-    height: 300px;
+    background-position: bottom 75% right 35%;
+    height: 250px;
     width: 100%;
     border-bottom: 2px solid var(--border-color);
 }
 
 #tagline p {
-    display:inline-flex;
-    margin-left: 17%;
-    margin-top: 9.4%;
+    display: inline-flex;
+    margin-left: 28%;
+    margin-top: 9.3%;
     color:rgb(235, 4, 4);
-    font-size: 48px;
-    font-weight:100;
+    font-size: 30px;
 }
 
 main {
@@ -78,81 +98,94 @@ main {
     color: var(--text-color);
 }
 
-.title-card img {
-    display: flex;
-    border-radius: 10px;
-    height:180px;
-    margin:30px;
-    align-self: center;
-}
-
 .title-card {
     display: flex;
-    width:25%;
-    min-height: 300px;
-    font-size: 30px;
-    font-weight: 100;
+    flex-wrap:wrap;
+    width:20%;
+    min-height: 10px;
     justify-content: right;
-    padding-right: 25px;
+    padding: 35px;
 }
 
-.title-card h2 {
+#about-me {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    padding-right: 50px;
+    justify-content: right;
+    text-align: right;
 }
 
-.content-box {
+#about-me img {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 25px;
-    padding-right: 25px;
+    border-radius: 10px;
+    max-height:200px;
+    margin-left: 50%;
+}
+
+.text-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
     min-height: 300px;
-    width: 75%;
-    text-align: left;
-    font-size: 20px;
-    line-height: 1.5;
+    width: 80%;
     border-left: solid #5a0404;
     margin-top:20px;
     margin-bottom:20px;
     align-content: center;
 }
 
-#row-1 img {
-    height: auto;
-    max-width: 100%;
-    margin-bottom: 25px;
-}
-
-#row-2 {
+ .application-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 300px;
+    width: 80%;
+    border-left: solid #5a0404;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
 }
 
-#row-2 a {
-    flex-wrap: wrap;
-    justify-content: space-between;
+.first-application {
+    width: 100%;
 }
 
-#row-2 a img {
-    max-width: 75%;
-    height: auto;
-    align-self: left;
-    margin-bottom: 25px;
+.first-application img {
+    width: 100%;
+}
+
+.left-application-box {
+    width: 48%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.left-application-box img {
+    width: 100%;
+}
+
+.right-application-box {
+    width: 48%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.right-application-box img {
+    width: 100%;
 }
 
 #contact-me {
-    color: var(--highlight-color);
+    min-height: 10px;
+    padding: 20px;
 }
 
 #contact-me nav {
     list-style-type: none;
-    display: inline-flex;
-    padding-top: 15px;
-    margin-right: 10px;
-    float: right;
-    font-size: 30px;
 }
 
 #contact-me nav ul {
@@ -160,14 +193,22 @@ main {
 }
 
 #contact-me nav ul li {
-    display: inline-block;
-    margin-left: 35px;
-    padding-top: 15px;
-    font-size: large;
-    color: var(--highlight-color);
+    font-size: 20px;
 }
 
 #contact-me nav ul li a {
+    color:rgb(59, 85, 230);
+}
+
+#contact-me nav ul li a:active {
+    color:rgb(129, 144, 228);
+}
+
+#contact-me nav ul li a:visited {
+    color:rgb(125, 55, 206);
+}
+
+#contact-me nav ul li a:hover {
     color: var(--highlight-color);
 }
 
@@ -184,9 +225,9 @@ footer {
 }
 
 footer p {
-    display: inline;
+    display: flex;
+    text-align:center;
     color: var(--highlight-color);
-    font-size: x-large;
     margin-bottom: 50px;
 }
 
