@@ -12,14 +12,11 @@ The project is deployed via GitHub Pages.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+![Header Navigation Menu](https://user-images.githubusercontent.com/122234007/215367942-72e85f3c-6c90-4179-8d19-2a744261611b.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![My Work](https://user-images.githubusercontent.com/122234007/215368003-16bc920f-f12d-4563-89f3-324ca3b3161c.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```Contact Info.png
-![alt text](assets/Images/Under Construction.jpg)
+![Contact Info](https://user-images.githubusercontent.com/122234007/215368030-84218e89-0ac9-42cf-9403-b1e34ce43b7d.png)
 
 
 ## Credits
@@ -33,8 +30,5 @@ MIT License Copyright © 2023
 
 ## Badges
 
-https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
-
-https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
 
 
