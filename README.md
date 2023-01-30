@@ -12,6 +12,8 @@ The project is deployed via GitHub Pages.
 
 ## Usage
 
+The image below shows the landing page, with navigation links (in the upper right corner) that scroll to the section having the same name as the link selected.
+
 ![Header Navigation Menu](https://user-images.githubusercontent.com/122234007/215367942-72e85f3c-6c90-4179-8d19-2a744261611b.png)
 
 ![My Work](https://user-images.githubusercontent.com/122234007/215368003-16bc920f-f12d-4563-89f3-324ca3b3161c.png)
