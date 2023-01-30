@@ -14,16 +14,15 @@ The project is deployed via GitHub Pages.
 
 The image below shows the landing page, with navigation links (in the upper right corner) that scroll to the section having the same name as the link selected.
 
-The About Me section is show below the page header.
+The "About Me" section is show below the page header.
 
 ![Header Navigation Menu](https://user-images.githubusercontent.com/122234007/215367942-72e85f3c-6c90-4179-8d19-2a744261611b.png)
 
-The image below shows the My Work. All images in this section have hyperlinks that open the webpage shown in the selected image.
+The image below shows the "My Work" section. All images in this section have hyperlinks that open the webpage shown in the selected image.
 
 ![My Work](https://user-images.githubusercontent.com/122234007/215368003-16bc920f-f12d-4563-89f3-324ca3b3161c.png)
 
-![Contact Info](https://user-images.githubusercontent.com/122234007/215368030-84218e89-0ac9-42cf-9403-b1e34ce43b7d.png)
-
+The image below shows the bottom of the "My Work" section, followed by the "Contact Me" section containing my email address (opens an email page) wlong with hyperlinks to my GitHub, LinkIn, and Twitter profiles. This section is followed by the footer, which can also be seen in the image.
 
 ## Credits
 
@@ -32,7 +31,7 @@ The reset.css file was obtained from bootcamp materials:
 
 ## License
 
-MIT License Copyright © 2023
+MIT License Copyright © 2023 
 
 ## Badges
 
