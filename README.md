@@ -1,6 +1,6 @@
 #Module 2 challenge - My Portfolio
 
-https://mathminx.github.io/module-2-challenge/
+https://mathminx.github.io/My-Portfolio/
 
 ## Description
 
