@@ -1,3 +1,4 @@
+/* Define CSS variables for colours */
 :root {
     --text-color: #b8b6b6;
     --base-color: black;
@@ -12,10 +13,12 @@
     font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
 }
 
+/* Set background colour to black for the entire page */
 body {
     Background-color: var(--base-color);
 } 
 
+/* select fonts sizes and weights for h1, h2, h3, and p*/
 h1 {
     font-size: 60px;
     font-weight:500;
@@ -38,6 +41,7 @@ p {
     line-height: 1.5;
 }
 
+/* Define styling for the header section */
 header {
     padding: 35px;
 }
@@ -87,6 +91,7 @@ header h1 {
     font-size: 30px;
 }
 
+/* Set characteristics of the main content section */
 main {
     display: flex;
     flex-wrap:wrap;
@@ -95,6 +100,8 @@ main {
     color: var(--text-color);
 }
 
+/* Main content section is divided into two columns (20/80 split) */ 
+/* Titles are on the left and content is on the right */
 .title-card {
     display: flex;
     flex-wrap:wrap;
@@ -104,14 +111,20 @@ main {
     padding: 35px;
 }
 
+.title-card h2 {
+    text-align: right;
+}
+
+/* Unique styling for the first title card because it conains an image */
 #about-me {
     display: flex;
     flex-wrap: wrap;
     padding-right: 50px;
     justify-content: right;
-    text-align: right;
+    /* text-align: right; */
 }
 
+/* Styling for the image in the first title card  */
 #about-me img {
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +133,7 @@ main {
     margin-left: 50%;
 }
 
+/* Styling for the text box in the second column */
 .text-box {
     display: flex;
     flex-wrap: wrap;
@@ -134,6 +148,7 @@ main {
     align-content: center;
 }
 
+/* Styling for the box in the second column that contains works samples */
  .application-box {
     display: flex;
     flex-wrap: wrap;
@@ -148,6 +163,7 @@ main {
     text-align: center;
 }
 
+/* The first application displayed is larger than the rest */
 .first-application {
     width: 100%;
 }
@@ -156,6 +172,7 @@ main {
     width: 100%;
 }
 
+/* Subsequent applications are displayed in side-by side pairs */
 .left-application-box {
     width: 48%;
     margin-right: 2%;
@@ -176,6 +193,7 @@ main {
     width: 100%;
 }
 
+/* Styling for the section containing contact information */
 #contact-me {
     min-height: 10px;
     padding: 20px;
@@ -193,6 +211,7 @@ main {
     font-size: 20px;
 }
 
+/* Contact information hyperlinks change colour depending on their state */
 #contact-me nav ul li a {
     color:rgb(59, 85, 230);
 }
@@ -209,6 +228,7 @@ main {
     color: var(--highlight-color);
 }
 
+/* Styling for the footer */
 footer {
     display: flex;
     height: 200px;
@@ -228,4 +248,39 @@ footer p {
     margin-bottom: 50px;
 }
 
+/* Changes in display when viewport is 992px or smaller */
+@media screen and (max-width:992px) {
 
+    /* profile picture disappears */
+    #about-me img {
+        display:none;
+    }
+
+    /* Side-by-side work samples are split into two columns */
+    .left-application-box {
+        width: 100%;
+    }
+
+    .right-application-box {
+        width: 100%;
+    }
+
+    /* Tagline disappears, leaving only the image */
+    #tagline p {
+        display:none;
+    }
+}
+
+/* Font size in the title cards and the "about me" text box shrinks when viewport is 768px or smaller */
+@media screen and (max-width:768px) {
+    .title-card h2, .text-box p {
+        font-size: 90%;
+    }
+}
+
+/* Font size in contact hyperlinks shrinks when viewport is 576px or smaller */
+@media screen and (max-width: 576px) {
+    #contact-me nav ul li {
+        font-size:10px;
+    }
+}
