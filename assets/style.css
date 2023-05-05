@@ -106,7 +106,7 @@ main {
     display: flex;
     flex-wrap:wrap;
     width:20%;
-    min-height: 10px;
+    min-height: 400px;
     justify-content: right;
     padding: 35px;
 }
@@ -121,7 +121,6 @@ main {
     flex-wrap: wrap;
     padding-right: 50px;
     justify-content: right;
-    /* text-align: right; */
 }
 
 /* Styling for the image in the first title card  */
@@ -129,7 +128,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    max-height:200px;
+    max-height:250px;
     margin-left: 50%;
 }
 
@@ -138,7 +137,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
-    padding-right: 50px;
+    padding-right: 100px;
     padding-left: 50px;
     min-height: 300px;
     width: 80%;
