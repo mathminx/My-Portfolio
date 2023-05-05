@@ -170,6 +170,7 @@ main {
 
 .first-application img {
     width: 100%;
+    margin-bottom:20px;
 }
 
 /* Subsequent applications are displayed in side-by side pairs */
