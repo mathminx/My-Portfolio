@@ -176,6 +176,7 @@ main {
 .left-application-box {
     width: 48%;
     margin-right: 2%;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -186,6 +187,7 @@ main {
 .right-application-box {
     width: 48%;
     margin-left: 2%;
+    margin-bottom: 20px;
     text-align: center;
 }
 
